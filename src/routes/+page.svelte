@@ -18,6 +18,7 @@
     background-color: #0b0f1a;
     color: #fff;
     font-family: 'Segoe UI', sans-serif;
+    border-bottom: 1px solid #009962;
   }
 
   .logo {
@@ -92,6 +93,33 @@
     order: 1;
   }
 
+  .hero-text {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+   font-family: 'Readex Pro';
+   font-weight: 400;
+   font-size: 72px;
+   letter-spacing: 0%;
+  background: #0b0f1a;
+  width: 1002;
+height: 158;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 600;
+  color: #ECECEC;
+}
+
+.hero-text h2 {
+  font-size: 2.7rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+  color: #ECECEC;
+}
+
+
   @media (max-width: 768px) {
     nav {
       flex-direction: column;
@@ -132,3 +160,9 @@
     <a href="#">FAQ</a>
   </div>
 </nav>
+
+<section class="hero-text">
+  <h1>Stay Ahead with</h1>
+  <h2>Personalized CryptoNews</h2>
+</section>
+
