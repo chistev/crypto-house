@@ -4,6 +4,18 @@
   />
 
   <style>
+     :global(html, body) {
+    margin: 0;
+    padding: 0;
+    background-color: #0b0f1a;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  :global(*) {
+    box-sizing: inherit;
+  }
     /* Navigation Bar Styles */
     nav {
       display: flex;
